@@ -3,6 +3,8 @@ import eslintPluginUnicorn from "eslint-plugin-unicorn";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+import eslintPluginUnicorn from "eslint-plugin-unicorn";
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
